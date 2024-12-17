@@ -1,7 +1,7 @@
 [Unit]
 Description=Remounts All Partitions Securely
 DefaultDependencies=no
-Before=sysinit.target
+Before=sysinit.target ostree-remount.service
 Requires=local-fs.target
 After=local-fs.target
 
