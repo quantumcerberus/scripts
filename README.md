@@ -1,4 +1,4 @@
-- Automount everything inside /run as nosuid,noexec,nodev,noatime
+- Automount everything inside /run as nosuid,noexec,nodev
 - Remove all SUID in /usr and mount it as nosuid,nodev
 
 - Ideal:
